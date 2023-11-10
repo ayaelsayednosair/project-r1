@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CoursesComponent } from './courses/courses.component';
 import { RatebarComponent } from './ratebar/ratebar.component';
+import { FormComponent } from './form/form.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -17,12 +19,14 @@ import { RatebarComponent } from './ratebar/ratebar.component';
     SidebarComponent,
     CoursesComponent,
     RatebarComponent,
+    FormComponent,
 
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

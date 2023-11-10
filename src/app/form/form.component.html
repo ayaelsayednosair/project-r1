@@ -1,0 +1,11 @@
+
+<p>{{changedata()}}</p>
+<form method="get" action="">
+    <label >{{one}}</label><br>
+    <input type="text" [value]="fristname" id="one"><br>
+    <label >{{two}}</label><br>
+    <input type="text" value="" id="one" name="name" [(ngModel)]="textdata"><br>
+    <input type="button" class="btn btn-primary" value="save" (click)="onclick($event)">
+</form>
+<p>{{onclick(event)}}</p>
+<p>{{textdata}}</p>

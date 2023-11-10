@@ -1,0 +1,16 @@
+#one{
+width:40%;
+height: 30px;
+border-radius: 5px;
+}
+label {
+   font-weight: bolder;
+   font-size: 20px;
+   margin: 5px;
+}
+.btn {
+margin-top: 10px;
+}
+p{
+   font-size: larger;
+}
